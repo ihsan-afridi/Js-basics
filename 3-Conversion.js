@@ -42,4 +42,9 @@ console.log(loggedIn);
  "" => false;
  "Afridi" => true */
 
+
+ let logged = 00011110000
+let loggedIn = Boolean(logged)
+console.log(loggedIn);
+
  

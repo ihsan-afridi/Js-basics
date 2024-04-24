@@ -43,5 +43,10 @@ loops , if else ,switch,*/
  console.log(typeof "ihsan"); //output string
  console.log(typeof 29);  //out out number
  console.log(typeof null); //output object
- console.log(typeof  undefined);// output undefined
-*/
+console.log(typeof  undefined);// output undefined*/
+
+let someNumber = 33
+
+let stringNumber = St(someNumber)
+ console.log(stringNumber);
+ console.log(typeof stringNumber);
