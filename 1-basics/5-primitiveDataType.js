@@ -9,7 +9,7 @@ console.log(age); // Output: 25
 
 //String:
 let name = "Ihsan Afridi";
-console.log(name); // Output: "John"
+console.log(name); // Output: "Afridi"
 
 
 //Boolean:
@@ -23,8 +23,8 @@ console.log(unknown); // Output: null
 
 
 //Undefined:
-let undefine;
-console.log(undefine); // Output: undefined
+let undefined;
+console.log(undefined); // Output: undefined
 
 
 //Symbol:
@@ -40,3 +40,19 @@ console.log(symbol); // Output: Symbol(description)
 // Non primitive / Reference
 
 // Array , Object , Function
+
+//Array:
+let scores = [90, 80, 70];
+console.log(scores); // Output: [90, 80, 70]
+
+
+//Object:
+let person = { name: "Afridi", age: 25 };
+console.log(person); // Output: { name: "Afridi", age: 25 }
+
+
+//Function:
+let greet = function(name) {
+  console.log(`Hello, ${name}!`);
+};
+greet("Jan"); // Output: Hello, Jan!
