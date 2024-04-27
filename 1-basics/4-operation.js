@@ -121,7 +121,7 @@ console.log({} == {}); // false (different objects)
 console.log(5 === 5); // true
 console.log('5' === 5); // false (different types)
 console.log(true === 1); // false (different types)
-console.log({} === {}); // false (different objects)
+console.log({} === {},'this is false'); // false (different objects)
 
 
 //Inequality Comparison
@@ -130,13 +130,13 @@ console.log({} === {}); // false (different objects)
 console.log(5 != 5); // false
 console.log('5' != 5); // false
 console.log(true != 1); // false
-console.log({} != {}); // true (different objects)
+console.log({} != {},'this is true'); // true (different objects)
 
 // Strict Inequality (!==)
 console.log(5 !== 5); // false
 console.log('5' !== 5); // true (different types)
 console.log(true !== 1); // true (different types)
-console.log({} !== {}); // true (different objects)
+console.log({} !== {}, 'this is true'); // true (different objects)
 
 
 //Relational Comparison

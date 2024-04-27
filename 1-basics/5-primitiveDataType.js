@@ -3,7 +3,7 @@
 // There are 7 data type : String , Number , Boolean , null , undefined , Symbol
 
 //Number:
-let age = 25;
+/*let age = 25;
 console.log(age); // Output: 25
 
 
@@ -55,4 +55,7 @@ console.log(person); // Output: { name: "Afridi", age: 25 }
 let greet = function(name) {
   console.log(`Hello, ${name}!`);
 };
-greet("Jan"); // Output: Hello, Jan!
+greet("Jan"); // Output: Hello, Jan! */
+
+
+
