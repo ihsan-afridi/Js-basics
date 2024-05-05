@@ -15,7 +15,7 @@ console.log(myString.charAt(0)); //its check the number of alphabits
 console.log(myString.indexOf("H"));//its check the alphbits number
 console.log(myString.indexOf("h")); //the small h value is -1
 console.log(myString.trim());//trim remove space
-console.log(myString.includes("Hello"));//if we write wrong so its false
+console.log(myString.includes("Hello"));//if we write wrong alphabit so its false
 console.log(myString.replace("He","le"));//out put is lello
 console.log(myString.substring(0,5));//out put is Hell
 console.log(myString.slice(4,8));//out put is o,w

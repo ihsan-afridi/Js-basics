@@ -11,7 +11,7 @@ let marks = "123" ;
 let num = parseInt(stringValue)
 console.log(typeof marks);// Out put is string 
 console.log(typeof parseInt); //Out put is function
-console.log(typeof stringValue); //Out is number
+console.log(typeof stringValue); //Out put is number
 
 
 
@@ -43,3 +43,7 @@ console.log(loggedIn);
  "Afridi" => true */
 
  
+let score = 122
+let valueInNumber = String(score)
+  //  console.log(typeof (score));// Out put is number
+ console.log(typeof valueInNumber);//Out put is string because we convert the number to string
