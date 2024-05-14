@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body style="background-color: aliceblue;">
+ <!-- <div class="parent">
+    <div class="number">One</div>
+    <div class="number">Tow</div>
+    <div class="number">Three</div>
+    <div class="number">Four</div>
+    <div class="number">Five</div>
+</div> -->
+</body>
+<script>
+             // this is traversing
+
+   //const parent = document.querySelector(".parent")
+//    console.log(parent);
+//    console.log(parent.children);
+//    console.log(parent.children[2].innerHTML);
+
+//    for (let index = 0; index < parent.children.length; index++) {
+//     console.log(parent.children[index].innerHTML);//da tol print kae one to five
+//    }
+
+//    parent.children[3].style.color = "blue" //the four color is blue
+   
+//    console.log(parent.firstElementChild);
+//    console.log(parent.lastElementChild);
+
+   //const one = document.querySelector(".number")
+//    console.log(one.parentElement);
+//    console.log(one.nextElementSibling);
+   //console.log("NODES" , parent.childNodes); //11 nodes list
+
+
+
+// *  //// Create New Element //// * //
+
+const div = document.createElement("div")
+console.log(div);
+
+div.className = "main"
+div.id = Math.floor(Math.random() *200)
+div.setAttribute("title","genrated title")
+
+div.style.backgroundColor = "green"
+div.style.padding = "12px"
+// div.innerText = "Ihsan Afridi"
+
+const add = document.createTextNode("Afridyan")
+div.appendChild(add)
+document.body.appendChild(div)
+
+
+
+
+
+</script>
+</html>

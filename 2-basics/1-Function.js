@@ -106,3 +106,4 @@ function Value(justArray){
 }
 // console.log(Value(newArray));
 console.log(Value([200,300,400]));
+
