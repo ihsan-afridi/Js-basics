@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+
+<body>
+    <button onclick="click1()">click me</button>
+    <p onmouseover="mouse1()">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque amet, ad, quaerat deleniti aliquid repudiandae quia nisi dolorum ipsum ullam molestiae officiis voluptatum temporibus! Numquam commodi sequi incidunt nulla sint!</p>
+    <button id="move">move</button>
+    <script>
+        function click1() {
+            console.log('the button has been clicked!')
+        }
+
+        function mouse1()
+        {
+            // console.log('the put the mouse over the paragraph')
+            document.write('the put the mouse over the p tag')
+        }
+
+
+       let move =  document.querySelectorAll('#move')
+        move.onclick ='click1()'
+        console.log(move)
+    </script>
+    
+</body>
+
+
+</html>

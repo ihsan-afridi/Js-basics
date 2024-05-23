@@ -8,5 +8,5 @@ const Num = [1,2,3,4,5,6,7,8,9,10]
     .map( (add) => {return add * 5} )
     .map( (add) => {return add + 2} )
     .map( (add) => {return add + 1} )
-    .filter((add) => add >= 33)
+    // .filter((add) => add >= 33)
 console.log(NewNum);

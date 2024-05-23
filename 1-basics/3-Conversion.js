@@ -45,5 +45,6 @@ console.log(loggedIn);
  
 let score = 122
 let valueInNumber = String(score)
-  //  console.log(typeof (score));// Out put is number
+   console.log(typeof (score));// Out put is number
  console.log(typeof valueInNumber);//Out put is string because we convert the number to string
+  
